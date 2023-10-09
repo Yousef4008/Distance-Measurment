@@ -1,0 +1,26 @@
+/*
+ * hr_sr04.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: Youssif Hossam
+ */
+
+#ifndef HAL_HC_SR04_HR_SR04_H_
+#define HAL_HC_SR04_HR_SR04_H_
+
+/*______________________________________________________________________________
+ |                               		Definitions                        		|
+ |______________________________________________________________________________|
+ */
+
+#define HC_SR04_TRIG_PORT_ID		PORTB_ID
+/*______________________________________________________________________________
+ |                               Functions Prototypes                           |
+ |______________________________________________________________________________|
+ */
+
+void Ultrasonic_init(void);
+void Ultrasonic_Trigger(void);
+uint16 Ultrasonic_readDistance(void);
+
+#endif /* HAL_HC_SR04_HR_SR04_H_ */

@@ -1,0 +1,29 @@
+ /*	______________________________________________________________________________
+   |																			  |
+   | Layer : APP																  |
+   |																			  |
+   | File Name: app.c															  |
+   |																			  |
+   | Description: Source file of the main application							  |
+   |																			  |
+   | Author: Youssif Hossam														  |
+   |______________________________________________________________________________|
+   */
+
+
+#include "HAL/LCD/lcd.h"
+#include "HAL/HC-SR04/hr_sr04.h"
+#include "LIB/std_types.h"
+#include <avr/io.h>
+int main (void){
+
+	uint8 distance = 0;
+	SREG |= (1<<7);
+
+	LCD_init();
+	HC_SR04_init();
+	while(1){
+
+	}
+	return 0;
+}

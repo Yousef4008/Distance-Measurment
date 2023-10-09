@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Mini_Project4/HAL/HC-SR04/hr-sr04.c&apos; to &apos;hr_sr04.c&apos;" description="Rename resource &apos;hr-sr04.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HAL/HC-SR04/hr-sr04.c" name="hr_sr04.c" stamp="1696822026833" updateReferences="true"/>
+</session>

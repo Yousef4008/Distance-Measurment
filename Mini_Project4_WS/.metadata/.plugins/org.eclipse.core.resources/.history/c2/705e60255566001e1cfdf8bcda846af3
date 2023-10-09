@@ -1,0 +1,25 @@
+ /*	______________________________________________________________________________
+   |																			  |
+   | Layer : APP																  |
+   |																			  |
+   | File Name: app.c															  |
+   |																			  |
+   | Description: Source file of the main application							  |
+   |																			  |
+   | Author: Youssif Hossam														  |
+   |______________________________________________________________________________|
+   */
+
+
+#include "HAL/LCD/lcd.h"
+#include "LIB/std_types.h"
+
+int main (void){
+	LCD_init();
+
+
+	while(1){
+
+	}
+	return 0;
+}

@@ -1,0 +1,13 @@
+/*
+ * hr_sr04.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: Youssif Hossam
+ */
+
+#ifndef HAL_HC_SR04_HR_SR04_H_
+#define HAL_HC_SR04_HR_SR04_H_
+
+
+
+#endif /* HAL_HC_SR04_HR_SR04_H_ */
